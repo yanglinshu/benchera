@@ -56,6 +56,10 @@ export default {
         },
       },
     },
+    defaultAssets: {
+      icons: false,
+    },
+    optionsPath: './vuetify.options.js',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

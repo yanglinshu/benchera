@@ -63,6 +63,8 @@
 </template>
 
 <script>
+import { mdiApps, mdiChartBubble } from '@mdi/js'
+
 export default {
   name: 'DefaultLayout',
   data() {
@@ -72,12 +74,12 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
+          icon: mdiApps,
           title: 'Welcome',
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: mdiChartBubble,
           title: 'Inspire',
           to: '/inspire',
         },
